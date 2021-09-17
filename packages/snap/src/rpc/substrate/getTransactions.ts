@@ -1,7 +1,9 @@
-import {Wallet} from "../../interfaces";
-import {Transaction} from "@chainsafe/metamask-polkadot-types";
+import { MetamaskState, Wallet } from '../../interfaces';
+import { Transaction } from '@chainsafe/metamask-polkadot-types';
 
 export async function getTransactions(wallet: Wallet): Promise<Transaction[]> {
-  return wallet.getPluginState().polkadot.transactions;
+	const state = (await wallet.request({
+		method: 'snap_getState',
+	})) as MetamaskState;
+	return state.polkadot.transactions;
 }
-
