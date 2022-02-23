@@ -34,5 +34,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 <a href="https://mvpworkshop.co/">
-  <img align="left" src="https://user-images.githubusercontent.com/37881789/150533680-f1d1045d-6652-43c2-9748-686d770a3ed2.jpg" />
+  <img align="left" src="https://user-images.githubusercontent.com/37881789/155356137-167dda28-1a77-47db-8a63-4a64ca8cd169.jpg" />
 </a>
